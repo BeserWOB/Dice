@@ -1,0 +1,77 @@
+.container {
+  margin: auto;
+  text-align: center;
+  position: relative;
+  border-radius: 25%;
+  background: #393E46;
+  opacity: 90%;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.9px);
+  -webkit-backdrop-filter: blur(8.9px);
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #393E46;
+}
+
+button {
+  display: block;
+  background-color: #393E46;
+  margin: 30px auto;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+  padding: 10;
+  border: bottom;
+}
+/* button probni */
+.large-button {
+    font-size: 2rem;
+    position: relative;
+    z-index: 1;
+    display: block;
+    place-items: center;
+    padding: 0 2em;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    text-decoration: none;
+}
+
+.large-button:hover {
+  transform: scale(1.2);
+  transition: transform 750ms ease-in-out;
+}
+
+
+
+
+/* button probni */
+
+h1 {
+  margin: 30px auto;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 5rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
